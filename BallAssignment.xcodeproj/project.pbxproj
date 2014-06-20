@@ -24,6 +24,9 @@
 		32D2F6CC1918151A00205648 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D2F6A71918151A00205648 /* UIKit.framework */; };
 		32D2F6D41918151A00205648 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32D2F6D21918151A00205648 /* InfoPlist.strings */; };
 		32D2F6D61918151A00205648 /* BallAssignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D2F6D51918151A00205648 /* BallAssignmentTests.m */; };
+		32D2F6E21918176600205648 /* BeachBall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32D2F6DF1918176600205648 /* BeachBall@2x.png */; };
+		32D2F6E31918176600205648 /* 8Ball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32D2F6E01918176600205648 /* 8Ball@2x.png */; };
+		32D2F6E41918176600205648 /* SoccerBall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32D2F6E11918176600205648 /* SoccerBall@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,9 @@
 		32D2F6D11918151A00205648 /* BallAssignmentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BallAssignmentTests-Info.plist"; sourceTree = "<group>"; };
 		32D2F6D31918151A00205648 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		32D2F6D51918151A00205648 /* BallAssignmentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BallAssignmentTests.m; sourceTree = "<group>"; };
+		32D2F6DF1918176600205648 /* BeachBall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BeachBall@2x.png"; sourceTree = "<group>"; };
+		32D2F6E01918176600205648 /* 8Ball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "8Ball@2x.png"; sourceTree = "<group>"; };
+		32D2F6E11918176600205648 /* SoccerBall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SoccerBall@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +134,9 @@
 				32D2F6BB1918151A00205648 /* CCViewController.m */,
 				32D2F6BD1918151A00205648 /* CCMyScene.h */,
 				32D2F6BE1918151A00205648 /* CCMyScene.m */,
+				32D2F6DF1918176600205648 /* BeachBall@2x.png */,
+				32D2F6E01918176600205648 /* 8Ball@2x.png */,
+				32D2F6E11918176600205648 /* SoccerBall@2x.png */,
 				32D2F6C01918151A00205648 /* Spaceship.png */,
 				32D2F6C21918151A00205648 /* Images.xcassets */,
 				32D2F6AC1918151A00205648 /* Supporting Files */,
@@ -241,10 +250,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32D2F6E21918176600205648 /* BeachBall@2x.png in Resources */,
 				32D2F6B01918151A00205648 /* InfoPlist.strings in Resources */,
 				32D2F6C31918151A00205648 /* Images.xcassets in Resources */,
 				32D2F6C11918151A00205648 /* Spaceship.png in Resources */,
+				32D2F6E31918176600205648 /* 8Ball@2x.png in Resources */,
 				32D2F6B91918151A00205648 /* Main.storyboard in Resources */,
+				32D2F6E41918176600205648 /* SoccerBall@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
